@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Blackjack Game</title>
+		<link rel = 'stylesheet' href = 'style.css' type = 'text/css'>
+		<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Mono&display=swap" rel="stylesheet">
+	</head>
+
+	<body>
+		<h1>
+			Blackjack
+		</h1>
+		<p class = description>
+			Click 'Play' below to begin playing Blackjack. <a href = 'https://en.wikipedia.org/wiki/Blackjack?__s=sl7sfj7hjq3nwplfspm9' target = '_blank'>Click here</a> for a guide on how to play Blackjack.
+		</p>
+
+		<div id = "blackjack-table">
+			<div class = "playerInput">
+				<input type = 'button' class = 'button' value = 'Start' onclick = "startGame()">
+				<input type = 'button' id = 'hit-el' class = 'button' value = 'Hit' onclick = "playerHit()">
+				<input type = 'button' id = 'stay-el' class = 'button' value = 'Stay' onclick = "stand()">
+			</div>
+			<div class = "player">
+				<p class = "labelPlayer"> Player Hand: </p>
+				<p id = "playerHand-el"></p>
+				<p class = "labelPlayer"> Player Total: </p>
+				<p id = "playerTotalValue-el"></p>
+				<p id = "cardSlotPlayer-el" class = "cardSlot"></p>
+			</div>
+			<div class = "dealer">
+				<p class = "labelDealer"> Dealer Hand: </p>
+				<p id = "dealerHand-el"></p>
+				<p class = "labelDealer"> Dealer Total: </p>
+				<p id = "dealerTotalValue-el"></p>
+				<p id = "cardSlotDealer-el" class = "cardSlot"></p>
+			</div>
+		</div>
+		<div class = "message">
+			<p id = "message-el"></p>
+		</div>
+
+
+		<script src = 'blackjack.js'></script>
+	</body>
+	
+</html>

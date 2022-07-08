@@ -1,0 +1,103 @@
+html{
+	
+	font-size: 16px;
+	font-family: 'Bebas Neue','Arial';
+	color: white;
+}
+
+body{
+	background-color: black;
+	background-image:  url("background.jpg");
+	text-align: center;
+	background-size: cover;
+}
+
+h1 {
+	font-size:  60px;
+}
+
+a {
+	color:  white;
+}
+
+a:hover {
+	color:  black;
+}
+
+.player {
+	display:  inline-block;
+	font-size: 20px;
+	width:  500px;
+	height: 300px;
+	text-align: left;
+}
+
+.dealer {
+	display:  inline-block;
+	font-size: 20px;
+	width:  500px;
+	height: 300px;
+	text-align: left;
+}
+
+.labelPlayer{
+	font-size: 30px;
+	color: black;
+	background-color: white;
+	width: 150px;
+	height: 35px;
+	text-align: center;
+	border-radius: 10px;
+	bottom: 25px;
+}
+
+.labelDealer{
+	font-size: 30px;
+	color: black;
+	background-color: white;
+	width: 150px;
+	height: 35px;
+	text-align: center;
+	border-radius: 10px;
+	bottom: 25px;
+}
+
+.description {
+	height: 50px;
+	padding:  25px;
+}
+
+.button {
+	width: 100px;
+	height: 50px;
+	text-align: center;
+	border-radius: 10px;
+	bottom: 25px;
+	font-family: 'Bebas Neue','Arial';
+}
+
+.button:hover {
+	background-color: lawngreen;
+}
+
+.message {
+	font-size:  50px;
+	height: 50px;
+	padding: 25px;
+}
+
+.card{
+	color:  black;
+    background-color: white;
+    display: inline-block;
+    width: 50px;
+    height: 80px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 3px;
+    font-size: 25px;
+    text-align: center;
+    border:solid 2px;
+}
+
+
